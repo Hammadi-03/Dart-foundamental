@@ -1,17 +1,25 @@
-// single Comment
-/// multi line comment
+// single comment
+// Used to disable a line of code or
+// mark a note
 
-/**Multiline comment 
- usually used for explianing subeuah functions */
-   
+/* Multiline Comment
+* Usually used to explain a
+* function/logic
+*/
 
-   
-/// [void] 
+/// Documentation Comment [Main]
+/// Aturan dari Documentation Comment:
+/// 1. Diawali dengan ///
+/// 2. Untuk memanggil function menggunakan []
+/// [age] [void]
 
-void main(list<String> args) {
-// hallo ali!
-  print('Hello, Ali!');
+void main(List<String> args) {
+  //  Ali!
+  print('Hello Ali');
 
   print('object');
 }
 
+int age(){
+  return 56;
+}

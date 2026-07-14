@@ -1,4 +1,3 @@
-main() {
- print('Hello, Dart!');
- print('Hello, Dart!');
+void main() {
+  print('Hello, Dart!');
 }
