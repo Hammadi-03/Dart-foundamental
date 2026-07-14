@@ -17,9 +17,9 @@ void main(List<String> args) {
   //  Ali!
   print('Hello Ali');
 
-  print('object');
+  print(age());
 }
 
 int age(){
-  return 56;
+  return 29;
 }
