@@ -18,7 +18,8 @@ alt + arah atas/bawah untuk pindah ke line atas atau bawah
 // digunakan untuk pemisah folder saat ini
 // jadi ketika rtid@DESKTOP-GUCUORN MINGW64 -/Documents/clone
 // dan melakukan cd ../../ maka kita balik lagi ke root
-/**
+
 perintah
 perintah
 perintah ucup perintah ucup
+*/

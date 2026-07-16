@@ -1,3 +1,4 @@
+// ignore_for_file: dead_code
 void main(List<String> args) {
   /**
    * ouput dari operator pembagian adalah boolean
@@ -12,7 +13,9 @@ void main(List<String> args) {
    * ! artinya "not" atau bukan
    */
   print("===================================");
-  if (false || true && false) {
+  bool isTrue = true;
+  bool isFalse = false;
+  if (isFalse || isTrue && isFalse) {
     print('BENAR');
   } else {
     print('SALAH');

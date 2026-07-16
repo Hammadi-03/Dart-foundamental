@@ -1,10 +1,15 @@
 const num pi = 3.14;
 
-void main(list<String> args) {
-  var radius = 10; //bisa dibuah (mutable) karna ada var
-print('Luaas linkaran dengan radius $radius adalah ${luasLingkaran(radius)}');
+void main(List<String> args) {
+  var radius = 10; //bisa diubah (mutable) karena ada var
+  print('Luas lingkaran dengan radius $radius adalah ${luasLingkaran(radius)}');
 
-final firstNmae = 'Ali'; 
-final lastName = 'Fauzi'; 
-lastName = 'Fauzi'; //tidak bisa diubah (immutable) karna ada final
+  final firstName = 'Ali'; 
+  var lastName = 'Fauzi'; 
+  lastName = 'Fauzi Updated'; 
+  print('Nama: $firstName $lastName');
+}
+
+num luasLingkaran(num r) {
+  return pi * r * r;
 }
