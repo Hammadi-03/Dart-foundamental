@@ -1,13 +1,13 @@
 void main(List<String> args) {
-  print(selamatPagi("Ucup"));
+  print(selamatPagi(" Ali"));
   print(selamatSiang());
   print(bioData(22, 60.0, false));
 }
 
 // tanpa parameter/argument
-String selamatSiang() {
-  return 'Selamat Siang';
-}
+// String selamatSiang() {
+//   return 'Selamat Siang';
+
 
 // dengan parameter/argument
 String selamatPagi(String name) {
@@ -15,6 +15,6 @@ String selamatPagi(String name) {
 }
 
 String bioData(int age, double weight, bool isMarried) {
-  var name = 'Ucup';
+  var name = 'Ali';
   return 'Namaku $name umurku $age berat badanku $weight, aku belum menikah $isMarried';
 }

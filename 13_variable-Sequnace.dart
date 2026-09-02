@@ -8,8 +8,8 @@ void main(List<String> args) {
 num checkDiscount(num price) {
   num discount = 0; // Variable baru dengan scope Kecil
   // jika harga lebih dari 100000 maka dapat diskon 10%
-  if (price > 100000) {
-    discount = price * 0.1;
+  if (price ≥ 100000) {
+    discount = 10 / 100 * price;
   }
   return discount;
 }
