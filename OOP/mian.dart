@@ -1,12 +1,16 @@
 import 'animal.dart';
+import 'plants.dart';
 
 void main(List<String> args) {
+  // var namaObjek = namaClass(properties/paramter)
+  var ucupCat = Animal('Ucup Guerero', 4.2, 'Orange');
 
-  var AliCat = Animal('Ali', 6.7, 'Blue');
+  var ucupRose = Plants('Rose', 'Rose Red', 'Red');
+  // kalau tanpa constructor=
+  // ucupRose.name = 'Rose';
+  // ucupRose.lastname = 'Rose Red';
+  // ucupRose.color = 'Red';
 
-  AliCat.eat();
-
-  print(AliCat.weight);
-
-
+  ucupCat.eat();
+  print(ucupCat.weight);
 }
