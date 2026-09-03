@@ -13,4 +13,11 @@ void main(List<String> args) {
 
   ucupCat.eat();
   print(ucupCat.weight);
+  print(ucupRose.name);
 }
+
+
+
+
+
+
