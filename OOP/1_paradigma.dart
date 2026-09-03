@@ -54,7 +54,7 @@
  * =>  Suatu objek bisa memiliki banyak bentuk. 
  * =>  Pada Satau metode yang sama 
  * =>  Bisa menunjukan perilaku yang berbeda 
-  *   gerak Ucup gerroo dengan cara gerak Kenzie berbeda 
+  *   Gerak Ucup Guerero dengan cara gerak Kenzie berbeda 
   *   itulah yang merupakan contoh dari Polymorphsim.
  * 
  * 
