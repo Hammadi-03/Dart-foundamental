@@ -1,5 +1,5 @@
 class Animal {
-  // Attributes / Properties
+  // Attributes / ties
   String? name = '';
   double weight = 0;
   String? color = '';
@@ -22,4 +22,4 @@ class Animal {
     print('$name is pooping');
     weight = weight - 0.1;
   }
-}
+}

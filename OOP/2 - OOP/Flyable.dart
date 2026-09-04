@@ -1,0 +1,4 @@
+class Flyable {
+  void fly() {
+  }
+}
